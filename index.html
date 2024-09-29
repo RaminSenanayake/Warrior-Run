@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Warrior Run</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="dungeonfont.css"/>
+        <link rel="stylesheet" href="bitpotiontext.css"/>
+        <link rel="icon" href="helmet.png"/>
+    </head>
+    <body onload="startup();" onkeyup="start(event);" class="body" id="body">
+        <div class="TreesBackground" id="TreesBackground">
+            <div class="bigTrees" id="bigTrees">
+                <div class="Trees" id="Trees">
+                    <div class="score" id="score">0</div>
+                    <div class="platform" id="platform"></div>
+                    <img src="idle-1.png" class="warrior" id="warrior"/>
+                    <div class="startingButtons" id="startingButtons">
+                        <div>Press <u>Enter</u> to start</div>
+                        <div>Press <u>Space</u> to jump</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="startScreen" id="startScreen">
+            <div class="gameTitle" id="gameTitle">Warrior Run
+                <div class="gameTitle1">Warrior Run</div>
+            </div>
+            <img src="run-1.png" class="startWarrior" id="startWarrior"/>
+            <button onpointerenter="playIn();" onpointerleave="playOut();" onclick="begin();" class="startButton" id="startButton">play</button>
+        </div>
+        <div class="gameOver" id="gameOver">
+            <div class="gameOverText"><u>Game Over</u></div>
+            <div>Your Score</div>
+            <div class="endScore" id="endScore">0</div>
+            <button onpointerenter="playIn();" onpointerleave="playOut();" onclick="refresh();" class="retry" id="retry">Try Again</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

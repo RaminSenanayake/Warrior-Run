@@ -1,0 +1,159 @@
+.TreesBackground{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url("1_\ Trees\ Background.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+.Trees{
+    width: 100vw;
+    height:100vh;
+    position: absolute;
+    background-image: url(4_\ Trees.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+}
+
+.bigTrees{
+    width: 100vw;
+    height: 93vh;
+    position: absolute;
+    background-image: url(3_\ Trees.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.platform{
+    position: absolute;
+    width: 100vw;
+    height: 11vh;
+    background-image: url("5_\ Floor\ Platform.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    margin-top: 827px;
+    
+}
+
+.body{
+    margin: 0px;
+}
+
+.warrior{
+    position: absolute;
+    height: 300px;
+    margin-top: 625px;
+}
+
+.score{
+    position: absolute;
+    color: rgb(43, 43, 43);
+    font-size: 130px;
+    font-family: "bitpotionmedium";
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.obstacle{
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    background-image: url("fire.gif");
+    background-size: cover;
+    margin-top: 750px;
+}
+
+.startingButtons{
+    position: absolute;
+    font-size: 100px;
+    font-family: "bitpotionmedium";
+    font-weight: bold;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+.startScreen{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 160px;
+    font-family: "dungeonfontregular";
+    color: rgba(184, 135, 11, 0.582);
+    font-weight: bold;
+}
+
+.gameTitle1{
+    position: absolute;
+    color: goldenrod;
+    font-size: 160x;
+    margin-top: -155px;
+    margin-left: 10px;
+}
+
+.startWarrior{
+    height: 400px;
+    margin-left: 180px;
+    margin-top: -50px;
+}
+
+.startButton{
+    width: 170px;
+    height: 70px;
+
+    font-size: 60px;
+    font-family: "bitpotionmedium";
+    font-weight: bold;
+    background-color: gold;
+
+    border-style: none;
+    border-radius: 40px;
+    cursor: pointer;   
+}
+
+.gameOver{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 160px;
+    font-family: "bitpotionmedium";
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.retry{
+    width: 170px;
+    height: 70px;
+
+    font-size: 50px;
+    font-family: "bitpotionmedium";
+    font-weight: bold;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 40px;
+
+    cursor: pointer;
+}
+
+.gameOverText{
+    font-style: italic;
+    color: rgb(182, 0, 0);
+    
+}
+
+.endScore{
+    color: rgb(43, 43, 43);
+}
